@@ -1,0 +1,16 @@
+/* Properties which are inherited by the child element*/
+body {
+  text-align: justify;
+  color: rgb(151, 12, 12);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Properties which are not inherited by the child element */
+body  {
+  
+  float: left;
+  position:static;
+  overflow: hidden;
+  height:20px;
+  
+}
